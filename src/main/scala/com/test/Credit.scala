@@ -27,6 +27,7 @@ import org.apache.spark.sql.SparkSession
 
 object Credit {
 
+//Adding comments to git test
   case class Credit(
     creditability: Double,
     balance: Double, duration: Double, history: Double, purpose: Double, amount: Double,
